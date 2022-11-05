@@ -1,6 +1,6 @@
 #include <SoftwareSerial.h>
 
-SoftwareSerial bluetooth(10, 11); //RX | TX
+SoftwareSerial bluetooth(0, 1); //RX | TX
 
 int ledPin = 13;
 
